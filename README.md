@@ -1,4 +1,4 @@
-# NLP and Deep Learning Templates
+# NLP and Deep Learning Projects Templates 
 
 This repository contains a collection of Natural Language Processing (NLP) and Deep Learning (DL) templates for various projects. Whether you're working on text classification, sentiment analysis, or deep learning architectures, this repo will help you get started quickly.
 
