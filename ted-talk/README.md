@@ -1,7 +1,3 @@
-Here’s a `README.md` file template for your TED Talks Segmentation and Topics Extraction project:
-
----
-
 # TED Talks Segmentation and Topics Extraction Using Machine Learning
 
 This repository contains code for segmenting and extracting topics from TED Talks using various machine learning techniques. The goal is to group TED Talks into clusters based on their content and extract key topics from each cluster.
