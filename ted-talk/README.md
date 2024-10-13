@@ -22,7 +22,6 @@ The dataset used for this project is publicly available on Kaggle:
 - Matplotlib
 - Seaborn
 - WordCloud
-- Streamlit (for UI)
 
 ## Methodology
 
