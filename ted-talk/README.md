@@ -1,41 +1,53 @@
-Here’s a basic structure for your `README.md` file. You can customize it further based on additional details you'd like to include:
+Here’s a `README.md` file template for your TED Talks Segmentation and Topics Extraction project:
 
-```markdown
+---
+
 # TED Talks Segmentation and Topics Extraction Using Machine Learning
 
-This project focuses on **segmenting TED Talks** and extracting their **topics** using various **Machine Learning techniques**. TED Talks, known for their rich content and diverse subjects, offer an excellent resource for Natural Language Processing tasks such as segmentation and topic modeling. The goal of this project is to analyze TED Talks and categorize them based on their underlying topics.
+This repository contains code for segmenting and extracting topics from TED Talks using various machine learning techniques. The goal is to group TED Talks into clusters based on their content and extract key topics from each cluster.
 
-## Overview
-In this project, we aim to:
-- Segment TED Talks into meaningful parts.
-- Extract and categorize topics using techniques like **LDA (Latent Dirichlet Allocation)**, **NMF (Non-negative Matrix Factorization)**, or others.
-- Analyze the effectiveness of different topic modeling algorithms.
 
-The project uses **Machine Learning** and **NLP** techniques to process the TED Talks dataset, with the goal of better understanding the core ideas behind each talk.
+## Project Overview
+TED Talks are a rich source of knowledge across various domains. In this project, we use machine learning techniques to:
+- Segment TED Talks into different clusters.
+- Extract key topics from each cluster using topic modeling.
+
+The project applies **TF-IDF Vectors** and **Count Vectors** for feature extraction and **K-Means Clustering** for segmentation. To determine the optimal number of clusters, we use the **Elbow Method**. Visualizations, such as **monogram word clouds**, help interpret the topics.
 
 ## Dataset
-The dataset used in this project is publicly available on Kaggle:
-- [TED Talks Dataset on Kaggle](https://www.kaggle.com/datasets/rounakbanik/ted-talks)
+The dataset used for this project is publicly available on Kaggle:  
+[TED Talks Dataset](https://www.kaggle.com/datasets/rounakbanik/ted-talks)
 
-## Usage
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- WordCloud
+- Streamlit (for UI)
 
-1. **Data Preprocessing**: The raw dataset needs to be cleaned and preprocessed. Scripts for this are provided.
-2. **Topic Modeling**: You can experiment with different topic modeling algorithms such as LDA or NMF.
-3. **Segmentation**: TED Talks will be segmented based on defined criteria.
-4. **Visualization**: Use the provided scripts to visualize the topics and segmentations.
+## Methodology
+
+1. **Data Preprocessing**:
+   - Cleaning and preparing the dataset for analysis.
+
+2. **Feature Extraction**:
+   - **TF-IDF Vectors** and **Count Vectors** are used to convert textual data into numerical form.
+
+3. **Clustering**:
+   - **K-Means Clustering** algorithm is used to segment TED Talks into clusters.
+   - The **Elbow Method** is applied to identify the optimal number of clusters.
+
+4. **Topic Extraction**:
+   - Key topics from each cluster are extracted and analyzed.
+   - **Monogram Word Cloud** is used for visualizing prominent words in each cluster.
 
 
 ## Results
-After running the project, you will be able to:
-- See the segmented parts of each TED Talk.
-- Extract the main topics discussed in each segment.
-- Visualize the topics using word clouds, bar charts, etc.
 
-## Technologies Used
-- **Python**
-- **Natural Language Processing (NLP)**
-- **Machine Learning**
-- **Streamlit** (for UI)
-- **LDA**, **NMF**, and other topic modeling techniques
-- **Scikit-learn**, **NLTK**, **Gensim**, etc.
-```
+The TED Talks dataset was successfully segmented into clusters, and key topics were extracted using machine learning. The clusters and topics are visualized through **monogram word clouds**, providing insights into the dominant themes within each group of talks.
+
+## License
+This project is licensed under the MIT License.
